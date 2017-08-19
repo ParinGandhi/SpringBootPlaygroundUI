@@ -18,5 +18,24 @@
     </table>
 
     <button class="btn btn-primary" ng-click="vm.getContactList()">Get Contacts</button>
+    <br><br><br>
+    <div class="row">
+        <div class="col-md-2">
+            <label for="">First name</label>
+        </div>
+        <div class="col-md-2">
+            <input type="text" class="form-control" ng-model="vm.person.firstName">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <label for="">Last name</label>
+        </div>
+        <div class="col-md-2">
+            <input type="text" class="form-control" ng-model="vm.person.lastName">
+        </div>
+    </div>
+    <br>
+    <button class="btn btn-primary" ng-click="vm.addPerson()">Add person</button>
 
 </div>
